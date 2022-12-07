@@ -1,0 +1,39 @@
+.div1 {
+    height: 100px;
+    width: 100px;
+    padding: 15px 10px 15px 10px;
+    border: 10px solid black;
+    border-style: solid none;
+}
+
+body {
+background-image: url(apa.jpeg);
+background-size: 1%;
+} 
+
+.phone1 {
+    display: block;
+    width: 750px;
+    height: auto;
+}
+
+.phone1:hover {
+    filter: contrast(1.1);
+    filter: blur(8px);
+    content: url(ali.jpeg);
+}
+
+a {
+cursor: alias;
+color: green;
+font-size: 100px;
+transition: 1s;
+
+}
+
+a:hover {
+
+color: purple;
+font-size: 1050px;
+
+}
