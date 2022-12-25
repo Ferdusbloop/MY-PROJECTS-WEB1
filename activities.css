@@ -27,7 +27,7 @@ h2 {
 .bloop {
 
     font-size: 25px;
-    direction: rtl;
+    
     unicode-bidi: bidi-override;
     text-decoration: dotted ;
     text-decoration: dashed;
