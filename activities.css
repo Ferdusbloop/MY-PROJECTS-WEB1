@@ -5,18 +5,19 @@ p {
 }
 
 h1 {
+  font-size: 35px;
   text-align: left;
 }
 
 .curry {
     columns: 3;
-    column-gap: 50px;
-    column-rule: 2.5px solid purple;
+    column-gap: 60px;
+    column-rule: 2.5px solid black;
 }
 
 
 h2 {
-    font-size: 35px;
+    font-size: 25px;
     margin:auto
 }
 
