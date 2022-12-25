@@ -1,11 +1,17 @@
 p {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 0px;
   text-align: justify;
 }
 
 h1 {
   text-align: center;
+}
+
+.curry {
+    columns: 3;
+    column-gap: 50px;
+    column-rule: 2.5px solid purple;
 }
 
 
@@ -20,7 +26,7 @@ h2 {
 
 .bloop {
 
-    font-size: 25px;
+    font-size: 20px;
     
     unicode-bidi: bidi-override;
     text-decoration: dotted ;
