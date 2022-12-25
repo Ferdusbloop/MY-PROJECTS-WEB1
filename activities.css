@@ -8,12 +8,6 @@ h1 {
   text-align: center;
 }
 
-.curry {
-    columns: 3;
-    column-gap: 50px;
-    column-rule: 2.5px solid purple;
-}
-
 
 h2 {
     font-size: 35px;
