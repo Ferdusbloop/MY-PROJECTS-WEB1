@@ -1,0 +1,607 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 0px;
+ 
+}
+
+.border-block {
+  position: relative;
+}
+
+.border-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #fff; 
+  z-index: 1; 
+  border: 1px solid #000; 
+  box-sizing: border-box;
+}
+
+
+
+h1 {
+  font-size: 45px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  z-index: 2;
+  width: 220px; 
+  height: 60px;
+  cursor: pointer;
+}
+
+.line {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.hor-line-title {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 1118px;
+  height: 2px;
+  background-color: black;
+
+}
+
+.hor-line-title2 {
+  position: absolute;
+  top: 150px;
+  left: 1278px;
+  width: 302px;
+  height: 2px;
+  background-color: black;
+
+}
+
+
+.hor-line-bottom {
+  position: absolute;
+  top: 1530px;
+  left: 100px;
+  width: 1481px;
+  height: 2px;
+  background-color: black;
+
+}
+
+.ver-line-between {
+  position: absolute;
+  top: 214px;
+  left: 433px;
+  width: 1px;
+  height: 1265px;
+  background-color: #484848;
+  
+}
+
+
+.ver-line-between2 {
+  position: absolute;
+  top: 214px;
+  left: 1247px;
+  width: 1px;
+  height: 1265px;
+  background-color: #484848;
+  
+}
+
+
+.black-box {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  background-color: black;
+  color: white;
+  width: 85px;
+  height: 38px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 1.3px;
+}
+
+.black-box2 {
+  position: absolute;
+  top: 150px;
+  left: 1278px;
+  background-color: black;
+  color: white;
+  width: 85px;
+  height: 38px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 1.3px;
+}
+
+.vertical-line {
+  position: absolute;
+  top: 7px;
+  left: 220px;
+  width: 1px;
+  height: 56px;
+  background-color: #000;
+  z-index: 4;
+}
+
+
+.navbar {
+  size: 40px;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 233px;
+  width: 250%;
+  height: 50px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  background-color: #ddd;
+  transition: all 0.3s ease-in-out;
+  color: rgb(61, 67, 233);
+}
+
+
+.curry {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  margin: 100px;
+  column-gap: 60px;
+  column-rule: 2.5px solid black;
+}
+
+.curry .iphone15leak {
+  grid-column: 2; 
+}
+
+.curry .column3gall {
+  grid-column: 3; 
+}
+
+.curry .column3gall {
+  width: 100%;
+  border: 2px solid #000;
+}
+
+.column3 img {
+margin-bottom: 37.5px;
+
+}
+
+
+h2 {
+  font-size: 35px;
+  text-decoration: underline;
+  top: 300px;
+  margin: 100px;
+}
+
+.ali {
+  width: 100%;
+  border: 2px solid #000;
+}
+
+.car {
+  width: 100%;
+  border: 2px solid #000;
+  margin-top: 80px;
+}
+
+.iphone15leak {
+  width: 100%;
+  border: 2px solid #000;
+
+}
+
+.titleip15 {
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  top: 20px;
+  margin: 20px;
+
+}
+
+h3 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.clickable-tech {
+  color: #000;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.clickable-cars {
+  color: #000;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.clickable-tech:hover {
+  text-decoration: underline;
+  transition: 2s;
+}
+
+.clickable-cars:hover {
+  text-decoration: underline;
+  transition: 2s;
+}
+
+.text-tech {
+font-size: 16.9px;
+font-style: italic;
+
+}
+
+.tech-line {
+  position: absolute;
+  top: 797px;
+  left: 115px;
+  width: 265px;
+  height: 1px;
+  background-color: black;
+}
+
+.bloop {
+  font-size: 20px;
+
+  unicode-bidi: bidi-override;
+  text-decoration: dotted;
+  text-decoration: dashed;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+.footer-div {
+  width: 100%;
+  
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-us {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-us h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-links {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-links h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+
+
+/* page 2 (Tech) */
+
+
+.page2 {
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 140px;
+}
+
+.page2-img {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.page2-img img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black; 
+  box-sizing: border-box; 
+}
+
+.page2-title {
+  text-align: center;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+
+.page2-title h2 {
+  font-size: 35px; 
+  text-align: center;
+  text-decoration: underline;
+}
+
+.page2-text-box {
+  padding-top: 20px; 
+}
+
+
+.page2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page2-img {
+  margin-bottom: 20px;
+}
+
+.page2-title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.page2-title h2 {
+  font-size: 35px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+
+.page2-ver-line {
+  position: absolute;
+  left: 1030px;
+  width: 1px;
+  height: 3265px;
+  background-color: #484848;
+
+}
+
+.page2-ver-line2 {
+  position: absolute;
+  right: 1030px;
+  width: 1px;
+  height: 3265px;
+  background-color: #484848;
+
+}
+
+
+
+.page2-2 {
+  margin-left: 620px;
+  margin-right: 90px;
+  margin-top: 140px;
+}
+
+.article-done {
+  width: 550px;
+  height: 3px;
+  background-color: rgb(115, 115, 115);
+  position: absolute;
+  top: 1870px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+/* page 3 (Cars) */
+
+
+.page3-container {
+  display: flex;
+  margin-top: 212px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.page3-column {
+  flex: 1;
+  padding: 0px;
+  position: relative;
+}
+
+.page3-column:first-child {
+  flex: 3.5;
+  margin-right: 10px;
+}
+
+.page3-column:last-child {
+  flex: 1;
+  margin-left: 90px;
+}
+
+.page3-column img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.page3-column img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black; 
+  box-sizing: border-box; 
+}
+
+.page3-column h2,
+.page3-column p {
+  margin-top: 0px;
+}
+
+
+.black-box3 {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  background-color: black;
+  color: white;
+  width: 106px;
+  height: 38px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 1.3px;
+}
+
+
+.hor-line-title3 {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 1074px;
+  height: 2px;
+  background-color: black;
+
+}
+
+
+.black-box4 {
+  position: absolute;
+  top: 150px;
+  left: 1274px;
+  background-color: black;
+  color: white;
+  width: 89px;
+  height: 38px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 1.3px;
+}
+
+
+.hor-line-bottom3 {
+  position: absolute;
+  top: 1940px;
+  left: 100px;
+  width: 1481px;
+  height: 2px;
+  background-color: black;
+
+}
+
+
+.tech-line3 {
+  position: absolute;
+  top: 1320px;
+  left: 1310px;
+  width: 230px;
+  height: 1px;
+  background-color: black;
+}
+
+.tech-line4 {
+  position: absolute;
+  top: 750px;
+  left: 1310px;
+  width: 230px;
+  height: 1px;
+  background-color: black;
+}
+
+
+.ver-line-between3 {
+  position: absolute;
+  top: 214px;
+  left: 1220px;
+  width: 1px;
+  height: 1665px;
+  background-color: #484848;
+  
+}
